@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2,p{
+   color: #FCECDD; 
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EAA64D;
+}
+.container{
+    background-color: #0D5EA6;
+    height: 53vh;
+    width: 36vh;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+form{
+    margin: 2rem 0 2rem 0;
+
+}
+form select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.7rem;
+}
+
+form input{
+    border: 1px solid gold;
+    font-size: 1.3rem;
+    height: 3rem;
+    padding-left:0.7rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:2rem ;
+}
+
+.select-container img{
+    max-width: 2rem;
+}
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius:0.5rem ;
+    border: 1.5px solid lightblue;
+   
+}
+.select-container select{
+    background-color: #0D5EA6;
+}
+.select-container option{
+    background-color: #C78A3B;
+}
+.msg{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    color:#FF7601;
+}
+
+button{
+    margin-top: 2rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    color: #4B352A;
+    background-color: #FFE99A;
+    cursor: pointer;
+}
+i{
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+}
+
